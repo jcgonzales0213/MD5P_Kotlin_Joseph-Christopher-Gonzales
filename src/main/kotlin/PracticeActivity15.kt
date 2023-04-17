@@ -3,6 +3,9 @@ fun main(){
     var a : Int = 0
     var b : Int = 0
     var c : Int = 0
+    var leftNum = 0
+    var rightNum = 0
+
 
     //input
     println("Enter number 1:")
@@ -12,10 +15,12 @@ fun main(){
     println("Enter number 3:")
     c = readln().toInt()
 
-
+    //process
+    leftNum = a * a + b * b
+    rightNum = c * c
 
     //output
-    if((a * a) + (b * b) == (c*c) || ((a *a) +(c*c) == (b*b) || (b*b) + (c*c) ==(a*a))){
+    if(leftNum==rightNum){
         println("The numbers form a Pythagorean Triple")
     }else{
         println("The number do not form a Pythagorean Triple")
