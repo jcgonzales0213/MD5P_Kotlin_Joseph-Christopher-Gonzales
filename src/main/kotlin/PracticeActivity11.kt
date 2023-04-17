@@ -23,7 +23,9 @@ fun main(){
     //output
     println("$name average grade is ${String.format("%.2f",average)}")
 
-    if (average >= 95){
+    if (average > 100 ) {
+        println("Invalid grade")
+    }else if(average >= 95 ){
         println("President lister")
     }else if(average >= 89){
         println("Dean lister")
@@ -31,10 +33,8 @@ fun main(){
         println("Average Student")
     }else if(average >= 78) {
         println("Fair")
-    }else if(average >= 0){
-        println("Failure")
     }else{
-        println("Invalid grade")
+        println("Failure")
     }
 
 }
