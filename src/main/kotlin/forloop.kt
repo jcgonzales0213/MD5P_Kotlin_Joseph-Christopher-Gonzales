@@ -2,7 +2,7 @@ fun main (){
     //for loop
     for (counter in 5..10){
         if (counter == 7){
-            continue
+            break
         }
         println(counter)
     }
