@@ -1,3 +1,5 @@
+package kotlinactivity
+
 fun main(){
     var position:String = "Mobile App Developer"
     val salary:Double = 35000.0

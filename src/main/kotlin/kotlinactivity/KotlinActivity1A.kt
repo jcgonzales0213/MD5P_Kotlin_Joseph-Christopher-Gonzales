@@ -1,3 +1,5 @@
+package kotlinactivity
+
 fun main(){
     var course:String = "Mobile App Developer"
     var name :String = "Juan De la Cruz"
